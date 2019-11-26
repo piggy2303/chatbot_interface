@@ -24,6 +24,10 @@ const useStyles = makeStyles(theme => ({
   },
   signOutButton: {
     marginLeft: theme.spacing(1)
+  },
+  title: {
+    color: 'white',
+    fontSize: 25
   }
 }));
 
@@ -39,10 +43,10 @@ const Topbar = props => {
       <Toolbar>
         <RouterLink to="/">
           <Typography
-          // className={classes.title}
-          // color="white"
-          // gutterBottom
-          // variant="body2"
+            className={classes.title}
+            // color="white"
+            // gutterBottom
+            // variant="body2"
           >
             Chatbot
           </Typography>
